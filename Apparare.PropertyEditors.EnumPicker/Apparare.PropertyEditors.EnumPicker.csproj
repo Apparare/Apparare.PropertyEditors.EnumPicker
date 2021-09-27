@@ -20,7 +20,7 @@
     <None Remove="App_Plugins\Apparare.PropertyEditors.EnumPicker\package.manifest" />
     <None Remove="App_Plugins\Apparare.PropertyEditors.EnumPicker\resources\enumpicker.resource.js" />
     <None Remove="App_Plugins\Apparare.PropertyEditors.EnumPicker\views\enumpicker.editor.html" />
-    <None Include="LICENSE">
+    <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

@@ -10,7 +10,7 @@
     <Company>Apparare</Company>
     <PackageId>Apparare.PropertyEditors.EnumPicker.Core</PackageId>
     <Product>Apparare.PropertyEditors.EnumPicker.Core</Product>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>..\LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/koenvanras/Apparare.PropertyEditors.EnumPicker</RepositoryUrl>
   </PropertyGroup>
 
