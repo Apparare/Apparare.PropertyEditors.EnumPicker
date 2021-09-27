@@ -1,0 +1,19 @@
+﻿<div ng-controller="enumPickerController">
+
+    <ng-form name="dropDownListForm">
+
+        <select name="dropDownList"
+                class="umb-property-editor umb-dropdown"
+                ng-change="updateDropdownValue()"
+                ng-model="model.dropdownValue"
+                ng-options="item.Value as item.Description for item in model.config.items"
+                ng-required="model.validation.mandatory">
+        </select>
+
+        <div ng-messages="dropDownListForm.dropDownList.$error" show-validation-on-submit>
+            <p class="help-inline" ng-message="required">{{mandatoryMessage}}</p>
+        </div>
+
+    </ng-form>
+
+</div>

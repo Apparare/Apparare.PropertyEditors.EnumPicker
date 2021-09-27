@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>Contains the core assemblies needed to run Apparare PropertyEditors EnumPicker</Description>
+    <Copyright>Apparare</Copyright>
+    <Authors>Koen van Ras</Authors>
+    <Company>Apparare</Company>
+    <PackageId>Apparare.PropertyEditors.EnumPicker.Core</PackageId>
+    <Product>Apparare.PropertyEditors.EnumPicker.Core</Product>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/koenvanras/Apparare.PropertyEditors.EnumPicker</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Components\" />
+    <Folder Include="Composers\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="PropertyValueConverters\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UmbracoCms.Core" Version="8.15.0" />
+    <PackageReference Include="UmbracoCms.Web" Version="8.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

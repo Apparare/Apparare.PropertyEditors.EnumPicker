@@ -1,0 +1,12 @@
+
+packages/
+
+Apparare.PropertyEditors.EnumPicker.Core/bin/
+
+Apparare.PropertyEditors.EnumPicker.Core/obj/
+
+Apparare.PropertyEditors.EnumPicker/bin/
+
+Apparare.PropertyEditors.EnumPicker/obj/
+
+.vs/

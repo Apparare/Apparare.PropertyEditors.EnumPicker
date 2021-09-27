@@ -1,0 +1,6 @@
+﻿{
+  "javascript": [
+    "~/App_Plugins/Apparare.PropertyEditors.EnumPicker/resources/enumpicker.resource.js",
+    "~/App_Plugins/Apparare.PropertyEditors.EnumPicker/js/enumpicker.controller.js"
+  ]
+}
